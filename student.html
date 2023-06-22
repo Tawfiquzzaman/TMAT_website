@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+    <title>Accomodation Manager</title>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo" width="100px"></a>
+    </div>
+    <ul class="nav">
+        <li><a href="student-book.html">BOOK</a></li>
+        <li><a href="#">RESERVATIONS</a></li>
+    </ul>
+    <div class="form">
+        <h2 style="text-align: center;">Past reservations</h2>
+        <b class="welcome">Hello Mohammad!</b>
+        <hr />
+
+        <table>
+            <tr class="tablehead">
+                <th>Arrival Date</th>
+                <th>Departure Date</th>
+                <th>Room Type</th>
+                <th>Status</th>
+                <th>Action</th>
+            </tr>
+            <tr class="tablebody">
+                <td>13/08/22</td>
+                <td>13/09/22</td>
+                <td>Single</td>
+                <td class="status"><span class="dot blue-dot"></span>Pending</td>
+                <td><a href="student-update.html">update ✏️</a></td>
+            </tr>
+            <tr class="tablebody">
+                <td>13/07/22</td>
+                <td>13/08/22</td>
+                <td>Double</td>
+                <td class="status"><span class="dot green-dot"></span>Confirmed</td>
+                <td><a href="student-view.html">view 👁️</a></td>
+            </tr>
+            <tr class="tablebody">
+                <td>13/07/22</td>
+                <td>13/08/22</td>
+                <td>Single</td>
+                <td class="status"><span class="dot red-dot"></span>Rejected</td>
+                <td><a>-----</a></td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>

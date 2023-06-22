@@ -1,0 +1,239 @@
+body {
+    background-color: #0F1F37;
+    font-family: 'Lucida Sans';
+    color: white;
+    text-align: center;
+
+    margin: 0px;
+}
+
+.logo {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 16px;
+}
+
+.login {
+    width: 600px;
+    padding: 24px;
+    margin: auto;
+    text-align: left;
+    border-radius: 16px;
+    background-color: #576273;
+}
+
+.textfield {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0px;
+    color: #B8BCC2;
+    display: inline-block;
+    border: 3px solid #B8BCC2;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+
+.submit {
+    width: 100%;
+    padding: 8px 0px;
+    font-size: 16px;
+    margin-top: 8px;
+    background-color: #F5D21C;
+    font-weight: bold;
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #B8BCC2;
+    font-weight: bold;
+
+}
+
+.nav {
+    background-color: #F5D21C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+
+.nav li a {
+    float: none;
+    display: inline-block;
+    padding: 14px 36px;
+    background-color: #F5D21C;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    position: relative;
+    text-align: center;
+    user-select: none;
+}
+
+.header h1 {
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.location {
+    display: flex;
+    justify-content: center;
+}
+
+.location h4 {
+    width: 600px;
+    margin: 0px 16px;
+    padding: 120px 0;
+    text-align: left;
+}
+
+.contact {
+    display: grid;
+    width: 75%;
+    margin: 32px auto;
+}
+
+.contact-item {
+    grid-row: 1;
+    text-align: center;
+}
+
+.welcome {
+    margin-bottom: 0px;
+}
+
+
+form {
+    padding: 8px;
+}
+
+.form-row {
+    display: flex;
+    margin: 8px 0px;
+
+}
+
+.form-row * {
+    flex: 1;
+}
+
+.form {
+    padding: 16px;
+    max-width: 900px;
+    min-width: 450px;
+    display: inline-block;
+    /* UI Properties */
+    text-align: left;
+    background: #576273;
+    border-radius: 16px;
+    margin: 32px auto;
+    padding-top: 10px;
+    color: White;
+}
+
+.btn-action {
+    display: flex;
+    text-align: center;
+}
+
+.approve {
+    flex: 1;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #59C41E 0% 0% no-repeat padding-box;
+    color: white;
+
+}
+
+.reject {
+    flex: 1;
+    padding: 8px 0px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #D42023 0% 0% no-repeat padding-box;
+    color: white;
+}
+
+.approve:hover {
+    background-color: darkgreen;
+}
+
+.reject:hover {
+    background-color: darkred;
+}
+
+
+
+
+/* manager main page */
+table {
+    color: black;
+    text-align: center;
+    width: 100%;
+}
+
+th {
+    padding: 12px;
+}
+
+td {
+    padding: 12px;
+}
+.status{
+    text-align: left;
+}
+.userapp {
+    font-size: 20px;
+    text-align: center;
+    color: white;
+}
+
+.tablehead th {
+    background-color: #F5D21C;
+}
+
+.tablebody td {
+    background-color: white;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    user-select: none;
+}
+
+.dot {
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 8px;
+}
+
+.blue-dot{
+    background-color: #30ACFF;
+}
+.green-dot{
+    background-color: #00FB43;
+}
+.red-dot{
+    background-color: #FB0000;
+}
+input[type="date"]{
+    text-align: center;
+    background:#F5D21C ;
+    max-width: 150px;
+}
+.col-action{
+    min-width: 100px;
+}

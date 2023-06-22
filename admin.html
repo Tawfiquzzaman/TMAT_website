@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./img/icon.png">
+    <title>Admin</title>
+</head>
+
+<body>
+    <div class="logo">
+        <a href="index.html"><img src="img/logo.png" alt="logo" width="100px"></a>
+    </div>
+    <ul class="nav">
+        <li><a href="admin-register.html">REGISTER</a></li>
+        <li><a href="#">LIST</a></li>
+    </ul>
+    <div class="form">
+        <h2 style="text-align: center;">Students list</h2>
+        <b class="welcome">Weclome Back!</b>
+        <hr />
+
+        <table>
+            <tr class="tablehead">
+                <th>Username</th>
+                <th>Password</th>
+                <th>First name</th>
+                <th>Last name</th>
+                <th>NIC/Passport</th>
+                <th>Birth Date</th>
+                <th>Action</th>
+            </tr>
+            <tr class="tablebody">
+                <td>mohamed</td>
+                <td>mo123456</td>
+                <td>mohammed</td>
+                <td>shafik</td>
+                <td>GF23568</td>
+                <td>13/12/2000</td>
+                <td class="col-action">
+                    <a href="admin-update.html">update ✏️</a>
+                    <br>
+                    <a href="#" onclick="alert('to be implemented!')">delete ❌</a>
+                </td>
+            </tr>
+            <tr class="tablebody">
+                <td>nayrul</td>
+                <td>na12345</td>
+                <td>nayrul</td>
+                <td>modir</td>
+                <td>TR23154</td>
+                <td>10/05/1999</td>
+                <td class="col-action">
+                    <a href="admin-update.html">update ✏️</a>
+                    <br>
+                    <a href="#" onclick="alert('to be implemented!')">delete ❌</a>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+
+</html>
